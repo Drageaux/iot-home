@@ -1,6 +1,6 @@
 {
   "name": "iot-home",
-  "app_id": "74b5dc7a",
+  "app_id": "1af9f0d7",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
