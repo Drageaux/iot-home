@@ -27,3 +27,21 @@ ion-navbar {
     color: white;
   }
 }
+
+.tabbar {
+  background: color($colors, dark) !important;
+
+  .tab-button {
+    .tab-button-icon, .tab-button-text {
+      color: white;
+    }
+  }
+
+    .tab-button:hover,
+    .tab-button:focus,
+    .tab-button[aria-selected=true] {
+      .tab-button-icon, .tab-button-icon+.tab-button-text {
+        color: color($colors, primary);
+      }
+    }
+}
