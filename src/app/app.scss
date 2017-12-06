@@ -29,13 +29,14 @@ ion-navbar {
 }
 
 .tabbar {
-  background: color($colors, dark) !important;
+
+  /*background: color($colors, dark) !important;
 
   .tab-button {
     .tab-button-icon, .tab-button-text {
       color: white;
     }
-  }
+  }*/
 
     .tab-button:hover,
     .tab-button:focus,
